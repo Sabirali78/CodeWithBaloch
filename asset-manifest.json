@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeWithBaloch/static/css/main.4c4bedf6.css",
+    "main.js": "/CodeWithBaloch/static/js/main.a0737732.js",
+    "static/js/453.ed3810f9.chunk.js": "/CodeWithBaloch/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/CodeWithBaloch/index.html",
+    "main.4c4bedf6.css.map": "/CodeWithBaloch/static/css/main.4c4bedf6.css.map",
+    "main.a0737732.js.map": "/CodeWithBaloch/static/js/main.a0737732.js.map",
+    "453.ed3810f9.chunk.js.map": "/CodeWithBaloch/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c4bedf6.css",
+    "static/js/main.a0737732.js"
+  ]
+}

@@ -5,6 +5,8 @@ import FeatureSection from './FeatureSection'; // make sure the path matches
 import GallerySection from "./GallerySection";
 import ContactSection from "./ContactSection";
 import FooterSection from "./FooterSection"; // make sure the path matches
+import profileImg from './assets/profile.jpg';
+import logoimage from './assets/logo.png';
 
 
 
@@ -18,7 +20,7 @@ function App() {
             <div className="flex space-x-7">
               <a href="#" className="flex items-center py-4 px-2">
               <img
-          src="/images/logo.png"
+          src= {logoimage}
           alt="Logo"
           className="w-20 h-10 mr-2"
         />                <span className="font-semibold text-gray-500 text-lg">CodeWithBaloch</span>
@@ -69,7 +71,7 @@ function App() {
       {/* Profile Image */}
       <div className="flex-shrink-0">
         <img
-          src="/images/profile.jpg"
+          src={profileImg}
           alt="Profile"
           className="w-64 h-64 rounded-2xl object-cover shadow-md"
         />

@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const images = [
-  "/images/1.jpg",
-  "/images/2.jpg",
-  "/images/3.jpg",
-  "/images/4.jpg",
-  "/images/5.jpg",
-  "/images/6.jpg",
-];
+import one from "./assets/one.jpg";
+import two from "./assets/two.jpg";
+import three from "./assets/three.jpg";
+import four from "./assets/four.jpg";
+import five from "./assets/five.jpg";
+import six from "./assets/six.jpg";
+
+const images = [one, two, three, four, five, six];
 
 export default function GallerySection() {
   useEffect(() => {
@@ -19,7 +19,9 @@ export default function GallerySection() {
   return (
     <section id="gallery" className="py-5 bg-gray-300">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold mb-12 " data-aos="fade-up">My Projects</h2>
+        <h2 className="text-4xl font-bold mb-12" data-aos="fade-up">
+          My Projects
+        </h2>
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
           data-aos="fade-up"

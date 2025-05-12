@@ -8,10 +8,10 @@ export default function ContactSection() {
         <p className="text-gray-600 mb-12">Let’s work together! Reach out to me anytime.</p>
         
         <div className="flex justify-center gap-8 flex-wrap text-red-400 text-2xl">
-          <a href="https://wa.me/923001234567" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
+          <a href="https://wa.me/923311343511" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
             <FaWhatsapp /> <span className="text-base ml-2">WhatsApp</span>
           </a>
-          <a href="mailto:youremail@example.com" className="hover:text-red-500 transition">
+          <a href="mailto:codewithbaloch7@gmail.com" className="hover:text-red-500 transition">
             <FaEnvelope /> <span className="text-base ml-2">Email</span>
           </a>
           <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-blue-800 transition">

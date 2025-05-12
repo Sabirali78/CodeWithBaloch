@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/CodeWithBaloch/static/css/main.4c4bedf6.css",
-    "main.js": "/CodeWithBaloch/static/js/main.2ea2a048.js",
+    "main.js": "/CodeWithBaloch/static/js/main.28f5d4a6.js",
     "static/js/453.ed3810f9.chunk.js": "/CodeWithBaloch/static/js/453.ed3810f9.chunk.js",
     "static/media/two.jpg": "/CodeWithBaloch/static/media/two.daffee13f010b22dd758.jpg",
     "static/media/three.jpg": "/CodeWithBaloch/static/media/three.54136981f81244e4a177.jpg",
+    "static/media/one.png": "/CodeWithBaloch/static/media/one.925f9b9c6570281b0793.png",
     "static/media/four.jpg": "/CodeWithBaloch/static/media/four.df2f8d4ab5463ad6441d.jpg",
-    "static/media/one.jpg": "/CodeWithBaloch/static/media/one.8d1eb78b16280286bb98.jpg",
-    "static/media/profile.jpg": "/CodeWithBaloch/static/media/profile.ae8dab4c7ffeecc7053a.jpg",
     "static/media/five.jpg": "/CodeWithBaloch/static/media/five.27dd298bdae92de7f7a1.jpg",
     "static/media/six.jpg": "/CodeWithBaloch/static/media/six.f689e6df188153375abf.jpg",
     "static/media/logo.png": "/CodeWithBaloch/static/media/logo.19fd0dcebb3a4121018c.png",
+    "static/media/profile.jpg": "/CodeWithBaloch/static/media/profile.0eee768d55e08d643560.jpg",
     "index.html": "/CodeWithBaloch/index.html",
     "main.4c4bedf6.css.map": "/CodeWithBaloch/static/css/main.4c4bedf6.css.map",
-    "main.2ea2a048.js.map": "/CodeWithBaloch/static/js/main.2ea2a048.js.map",
+    "main.28f5d4a6.js.map": "/CodeWithBaloch/static/js/main.28f5d4a6.js.map",
     "453.ed3810f9.chunk.js.map": "/CodeWithBaloch/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c4bedf6.css",
-    "static/js/main.2ea2a048.js"
+    "static/js/main.28f5d4a6.js"
   ]
 }

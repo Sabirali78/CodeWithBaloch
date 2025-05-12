@@ -28,11 +28,21 @@ export default function GallerySection() {
         >
           {images.map((src, index) => (
             <div key={index} className="overflow-hidden shadow-lg">
-              <img
-                src={src}
-                alt={`Gallery ${index + 1}`}
-                className="w-full bg-contain h-60 transform hover:scale-105 transition-transform duration-300"
-              />
+              {index === 0 ? (
+                <a href="https://fatimakashida.com/" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={src}
+                    alt={`Gallery ${index + 1}`}
+                    className="w-full bg-contain h-60 transform hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
+              ) : (
+                <img
+                  src={src}
+                  alt={`Gallery ${index + 1}`}
+                  className="w-full bg-contain h-60 transform hover:scale-105 transition-transform duration-300"
+                />
+              )}
             </div>
           ))}
         </div>
